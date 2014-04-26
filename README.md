@@ -43,21 +43,29 @@ This assignment will be graded via peer assessment.
 ### Files description
 Three files are part of this submission:
 1.  README.md - This file
+
 2.  cachematrix.R - The file containing the two R functions to be implemented as part of the assessment
+
 3.  test.R - A file with a simple R program to test the functions in cachematrix.R file
 
 #### cachematrix.R functions description
 
 The makeCacheMatrix function creates and returns a list of functions for
 1.  saving a matrix 
+
 2.  getting the saved matrix. If non matrix was previously saved, an empty matrix is returned
+
 3.  saving the inverse of the saved matrix
+
 4.  getting the inverse of the saved matrix. If no inverted matrix was previously saved, an empty matrix is returned
  
 The cacheSolve matrix function
 1.  evaluates the inverted matrix for the matrix received as first argument
+
 2.  caches the inverted matrix
+
 3.  returns the inverted matrix
+
 If the inverted matrix is already cached, steps 1 and 3 are skipped
 
 The input to cacheSolve must be a list returned by makeCacheMatrix function
@@ -65,7 +73,10 @@ The input to cacheSolve must be a list returned by makeCacheMatrix function
 #### test.R program
 
 The program invokes makeCacheMatrix and cacheSolve functions and traces to standard output what's going on.
+
 The file test.R must be in the same folder as cachematrix.R folder  
+
 It must be invoked from R prompt with following command
-source("test.R").    
+
+         source("test.R").    
 
