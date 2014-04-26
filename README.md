@@ -48,7 +48,8 @@ Three files are part of this submission:
 
 3.  test.R - A file with a simple R program to test the functions in cachematrix.R file
 
-#### cachematrix.R functions description
+#### cachematrix.R 
+Functions description
 
 The makeCacheMatrix function creates and returns a list of functions for
 1.  saving a matrix 
